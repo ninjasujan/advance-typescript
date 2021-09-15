@@ -1,0 +1,20 @@
+{
+	"name": "advance-typescript",
+	"version": "1.0.0",
+	"description": "advance typescript course file",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rm -rf ./dist/ && tsc -t es5 ./src/**.ts --outDir ./dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ninjasujan/advance-typescript.git"
+	},
+	"author": "sujan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ninjasujan/advance-typescript/issues"
+	},
+	"homepage": "https://github.com/ninjasujan/advance-typescript#readme"
+}
